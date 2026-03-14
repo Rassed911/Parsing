@@ -9,7 +9,7 @@
 2. **Data Cleaning**: Очищены цены от спецсимволов, категориальный рейтинг ("Three", "Four") преобразован в числовой формат.
 3. **Storage**: Данные сохранены в реляционную базу данных **SQLite**.
 4. **Analysis**: Проведен SQL-анализ (группировки, агрегации) и визуализация распределения цен.
-5. Далее был догружен deep_scarping.py ; где реализованы сложные запросы requests внутри requests.
+   Далее был догружен deep_scarping.py ; где реализованы сложные запросы `requests` внутри `requests`.
 
 ### Стек технологий:
 * Python (Requests, BeautifulSoup)
@@ -18,9 +18,9 @@
 * Matplotlib (Visualization)
 
 ### Как запустить:
-1. 'pip install -r requirements.txt'
-2. Запустить 'parsing1.py' либо запустить 'deep_scarping.py'
+1. `pip install -r requirements.txt`
+2. Запустить 'parsing1.py' либо запустить `deep_scarping.py`
 
 ### Вложенные файлы:
-1. Прилагается файл 'plot.png' - распределение цен на книги для файла 'parsing.py'
-2. Прилагается файл 'sql.png' - первые несколько строк из базый данных файла 'deep_scarpinh.py'
+1. Прилагается файл `plot.png` - распределение цен на книги для файла `parsing.py`
+2. Прилагается файл `sql.png` - первые несколько строк из базый данных файла `deep_scarpinh.py`
