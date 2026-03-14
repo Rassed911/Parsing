@@ -19,7 +19,7 @@
 
 ### Как запустить:
 1. `pip install -r requirements.txt`
-2. Запустить 'parsing1.py' либо запустить `deep_scarping.py`
+2. Запустить `parsing1.py` либо запустить `deep_scarping.py`
 
 ### Вложенные файлы:
 1. Прилагается файл `plot.png` - распределение цен на книги для файла `parsing.py`
